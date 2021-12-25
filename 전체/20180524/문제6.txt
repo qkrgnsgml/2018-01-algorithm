@@ -1,0 +1,12 @@
+문제 6 - 소수 찾기
+
+A. 의사코드 
+
+1. 변수 선언(num, i, flag = 0)
+2. 입력 num
+3. 반복 // 반복 i = 2 to num - 1
+3.1 if num%1==0 : True flag =1 break 4로
+3.2 if num%1==0 : false 반복 진행
+4. if flag == 1 : True 소수 아님
+4.1  if flag == 1 : False 소수 
+5. 끝

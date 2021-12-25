@@ -1,0 +1,3 @@
+﻿  소스.c
+c:\users\박훈희\source\repos\중간고사_문제_c 1,2번\중간고사_문제_c 1,2번\소스.c(9): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  중간고사_문제_C 1,2번.vcxproj -> C:\Users\박훈희\source\repos\중간고사_문제_C 1,2번\Debug\중간고사_문제_C 1,2번.exe

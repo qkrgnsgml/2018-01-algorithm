@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "중첩 if 연습 문제 2", "중첩 if 연습 문제 2\중첩 if 연습 문제 2.vcxproj", "{AA0336C8-D139-40B3-9DE5-E4621F57CDE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA0336C8-D139-40B3-9DE5-E4621F57CDE5}.Debug|x64.ActiveCfg = Debug|x64
+		{AA0336C8-D139-40B3-9DE5-E4621F57CDE5}.Debug|x64.Build.0 = Debug|x64
+		{AA0336C8-D139-40B3-9DE5-E4621F57CDE5}.Debug|x86.ActiveCfg = Debug|Win32
+		{AA0336C8-D139-40B3-9DE5-E4621F57CDE5}.Debug|x86.Build.0 = Debug|Win32
+		{AA0336C8-D139-40B3-9DE5-E4621F57CDE5}.Release|x64.ActiveCfg = Release|x64
+		{AA0336C8-D139-40B3-9DE5-E4621F57CDE5}.Release|x64.Build.0 = Release|x64
+		{AA0336C8-D139-40B3-9DE5-E4621F57CDE5}.Release|x86.ActiveCfg = Release|Win32
+		{AA0336C8-D139-40B3-9DE5-E4621F57CDE5}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB0ABBDC-BA4A-43C0-875D-CAD44ACE7212}
+	EndGlobalSection
+EndGlobal

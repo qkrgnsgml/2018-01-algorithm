@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "일정한 횟수 반복 연습 _문제 3", "일정한 횟수 반복 연습 _문제 3\일정한 횟수 반복 연습 _문제 3.vcxproj", "{6FA6B2B2-DDD6-4F90-B14D-8A98D348FA63}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FA6B2B2-DDD6-4F90-B14D-8A98D348FA63}.Debug|x64.ActiveCfg = Debug|x64
+		{6FA6B2B2-DDD6-4F90-B14D-8A98D348FA63}.Debug|x64.Build.0 = Debug|x64
+		{6FA6B2B2-DDD6-4F90-B14D-8A98D348FA63}.Debug|x86.ActiveCfg = Debug|Win32
+		{6FA6B2B2-DDD6-4F90-B14D-8A98D348FA63}.Debug|x86.Build.0 = Debug|Win32
+		{6FA6B2B2-DDD6-4F90-B14D-8A98D348FA63}.Release|x64.ActiveCfg = Release|x64
+		{6FA6B2B2-DDD6-4F90-B14D-8A98D348FA63}.Release|x64.Build.0 = Release|x64
+		{6FA6B2B2-DDD6-4F90-B14D-8A98D348FA63}.Release|x86.ActiveCfg = Release|Win32
+		{6FA6B2B2-DDD6-4F90-B14D-8A98D348FA63}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D54ED1E8-483F-4197-B3DC-7F0EA6A994A1}
+	EndGlobalSection
+EndGlobal

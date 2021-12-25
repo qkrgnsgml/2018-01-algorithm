@@ -1,0 +1,21 @@
+슈도코드 // 학생성적 배열 p9
+1.시작
+2.변수 선언 score[50]=0, char hak[50]=0, i ;
+3. 반복 시작 i<10
+3.1 입력 score [i]
+3.2 if score[i]==-1 break
+4. 반복 시작 i<10
+4.1if score[i]==-1 break
+4.2 if score[i] >=90 hak[i]=A if score[i] >=80 hak[i]=B if score[i] >=70 hak[i]=C if score[i] >=60 hak[i]=D else hak[i]=F
+4.3 출력 score[i] hak[i]
+5. 끝
+
+교수님 의사코드
+1. 변수 선언 score[50]=0, char hak[50]=0, i ;
+2. 반복 i=0~9 1식 증가
+2.1 성적입력 i
+2.2  if score[i]==-1 break 종료
+2.3 조건에 따라 학점배열[i]= A,B,C,D,F 를 ㄴ허음
+3. 반복 i=0~9 1씩증가
+3.1성적배열 [i] 학점배열 [i] 출력
+3.2 단, 성적배열[i]가 -1인경우 종료 

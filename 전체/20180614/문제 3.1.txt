@@ -1,0 +1,49 @@
+슈도코드
+1. 시작
+2. 변수선언 int gibu[7]={15, 10, 12, 20,16, 22, 10}, i,s
+3. 반복문 시작 for(i=0; i<7; i++)
+3.1 if (gibu[i]<10) s=gibu[i]*50, printf s
+3.2 else if (gibu[i]<20) s=gibu[i]*70, printf s
+3.3 else if (gibu[i]<50) s=gibu[i]*100, printf s
+3.4 else if (gibu[i]<100) s=gibu[i]*150, printf s
+3.5 else s=gibu[i]*200, printf s
+
+3.2 데이터 입력받기
+1. 시작
+2. 변수선언 int gibu[7]={0}, i,s, max, min, chong
+3. 반복문 시작 for(i=0; i<7; i++)
+3.1 scanf gibu[i]
+3.2 if (gibu[i]<10) s=gibu[i]*50, printf s
+3.3 else if (gibu[i]<20) s=gibu[i]*70, printf s
+3.4 else if (gibu[i]<50) s=gibu[i]*100, printf s
+3.5 else if (gibu[i]<100) s=gibu[i]*150, printf s
+3.6 else s=gibu[i]*200, printf s
+
+3.3 최대 기부금액 총 기부금액
+1. 시작
+2. 변수선언 int gibu[7]={0}, i,min=40001, max=0, sum=0, max2, min2
+3. 반복문 시작 for(i=0; i<7; i++)
+3.1.1 scanf gibu[i]
+3.1.1.1if (gibu[i] >= 200)  gibu[i] = 200 
+3.1.2 if (gibu[i]<10) gibu[i]=gibu[i]*50
+3.1.3 else if (gibu[i]<20) gibu[i]=gibu[i]*70
+3.1.4 else if (gibu[i]<50) gibu[i]=gibu[i]*100
+3.1.5 else if (gibu[i]<100) gibu[i]=gibu[i]*150
+3.1.6 else gibu[i]=gibu[i]*200
+3.1.7 sum+=gibu[i]
+3.2.1 if (gibu[i] > max) max = gibu[i]
+3.2.2 if (gibu[i] < min) min = gibu[i]
+4. max2 = min; min2 = max avg=sum/7최대와 최소값을 범위로 다시 가둔다
+5. 반복문 시작 for (i = 0; i < 7; i++)
+5.1 if (gibu[i] > max2 && gibu[i]!=max) max2 = gibu[i]
+5.2 if (gibu[i] < min2 && gibu[i]!=min) min2 = gibu[i]
+6.출력 max min sum max2 min2
+7.끝
+
+
+3.4 230km는 200km으로 바꿔서 계산함
+[평균기부금액]출력 2번째 큰 기부금액, 2번째 작은 기부금액 출력
+ex) 1000 1000 800 600
+2번째 큰 800
+2번째 작은 800
+아버지를 죽인다.
